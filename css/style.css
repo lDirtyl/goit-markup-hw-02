@@ -30,12 +30,27 @@ header ul {
 	letter-spacing: 0.02em;
 	color: var(--navy-blue);
 	list-style-type: none;
-	.nav-link {
-		text-transform: capitalize;
-	}
+	
 }
 
+header .nav-link {
+	font-family: var(--font-family);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0.02em;
+	color: var(--navy-blue);
+	text-transform: capitalize;
+	}
 
+header .nav-link:hover {
+	font-family: var(--font-family);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0.02em;
+	color: var(--ocean);
+}
 
 button.filter-button {
 	/* button */
@@ -68,7 +83,6 @@ address .address-link {
 
 address .address-link:hover{
 	color: var(--iris);
-	text-decoration: underline;
 }
 
 
