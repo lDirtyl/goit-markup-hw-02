@@ -82,11 +82,109 @@ footer .logo {
 	text-decoration: none;
 }
 
+section.first-main {
+	width: 1440px;
+	height: 600px;	
+	background-color: var(--navy-blue);
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 107%;
+	letter-spacing: 0.02em;
+	text-align: center;
+	color: var(--white);
+}
+
+.order-btn {
+	/* button */
+	border-radius: 4px;
+	padding: 16px 32px;
+	width: 169px;
+	height: 56px;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+	background: var(--iris);
+	/* text */
+	font-family: var(--font-family);
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 150%;
+	letter-spacing: 0.04em;
+	color: var(--white);
+}
+
+.order-btn:hover {
+	background: var(--ocean);
+}
+
+.features {
+	list-style-type: none;
+}
+
+.features-title {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 120%;
+	letter-spacing: 0.02em;
+}
+
+.features-descr {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0.02em;
+	color: var(--slate);
+}
+
+.specifications {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 111%;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+.specifications-list {
+	list-style-type: none;
+}
+
+.team {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 111%;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+.team-list {
+	list-style-type: none;
+}
+
+.team-name {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 120%;
+	letter-spacing: 0.02em;
+	text-align: center;
+}
+
+.team-role {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0.02em;
+	text-align: center;
+	color: var(--slate);
+}
+
 section .filter-list{
 	list-style-type: none;
 }
 
-button.filter-button {
+button.filter-btn {
 	/* button */
 	border: 1px solid var(--cornflower);
 	border-radius: 4px;
@@ -103,8 +201,26 @@ button.filter-button {
 	color: var(--iris);
 }
 
-button.filter-button:hover{
+button.filter-btn:hover{
 	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
 	background: var(--ocean);
 	color: var(--white);
+}
+
+footer {
+	width: 1440px;
+	height: 312px;
+	background-color: var(--navy-blue);
+}
+
+footer > p {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0.02em;
+	color: var(--cloud);
+}
+
+footer .logo {
+	color: var(--cloud);
 }
