@@ -207,6 +207,64 @@ button.filter-btn:hover{
 	color: var(--white);
 }
 
+ul.row1 {
+	list-style-type: none;
+}
+
+ul.row1 > li > h2 {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 120%;
+	letter-spacing: 0.02em;
+}
+
+ul.row1 > li > p {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0.02em;
+	color: var(--slate);
+}
+
+ul.row2 {
+	list-style-type: none;
+}
+
+ul.row2 > li > h2 {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 120%;
+	letter-spacing: 0.02em;
+}
+
+ul.row2 > li > p {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0.02em;
+	color: var(--slate);
+}
+
+ul.row3 {
+	list-style-type: none;
+}
+
+ul.row3 > li > h2 {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 120%;
+	letter-spacing: 0.02em;
+}
+
+ul.row3 > li > p {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0.02em;
+	color: var(--slate);
+}
+
+
 footer {
 	width: 1440px;
 	height: 312px;
