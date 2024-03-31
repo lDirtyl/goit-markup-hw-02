@@ -51,6 +51,7 @@ body {
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
 	text-decoration: none;
+	color: var(--navy-blue);
 	}
 
 .nav-link:hover,
@@ -213,6 +214,7 @@ body {
 	font-size: 20px;
 	line-height: 120%;
 	letter-spacing: 0.02em;
+	color: var(--navy-blue);
 }
 
 .item-subtitle {
