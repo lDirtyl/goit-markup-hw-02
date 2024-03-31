@@ -15,9 +15,17 @@
 	--second-family: "Raleway", sans-serif;
 }
 
+address {
+	font-style: normal;
+}
+
 body {
 	font-family: var(--font-family);
 	color: var(--navy-blue);
+}
+
+footer {
+	background-color: var(--navy-blue);
 }
 
 .logo, .footer-logo {
@@ -225,9 +233,6 @@ body {
 	color: var(--slate);
 }
 
-footer {
-	background-color: var(--navy-blue);
-}
 
 .footer-text {
 	font-weight: 400;
